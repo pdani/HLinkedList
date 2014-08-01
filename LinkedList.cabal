@@ -1,0 +1,51 @@
+name:                LinkedList
+version:             0.1.0.0
+synopsis:            Haskell implementation of a simply-linked list
+-- description:
+homepage:            https://github.com/pdani/LinkedList
+license:             BSD3
+license-file:        LICENSE
+author:              Daniel Pek
+maintainer:          pekdaniel@gmail.com
+-- copyright:           
+category:            Data
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+source-repository head
+  type:             git
+  location:         https://github.com/pdani/LinkedList.git
+
+library
+  exposed-modules:
+                       Data.LinkedList
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       
+                       base >=4.7 && <4.8
+                     , HTF == 0.11.*
+  hs-source-dirs:      
+                       src
+  default-language:    
+                       Haskell2010
+  ghc-options:         
+                       -Wall
+                       -fno-warn-name-shadowing
+                       -fno-warn-missing-signatures
+                       -fno-warn-type-defaults
+
+test-suite LinkedList-tests
+  type:
+                      exitcode-stdio-1.0
+  main-is:
+                      TestMain.hs
+  other-modules:
+                      Data.LinkedList
+  build-depends:
+                      base
+                    , HTF == 0.11.*
+  hs-source-dirs:      
+                       src
+  default-language:   
+                      Haskell2010
