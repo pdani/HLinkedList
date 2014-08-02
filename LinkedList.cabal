@@ -1,8 +1,8 @@
 name:                LinkedList
 version:             0.1.0.0
-synopsis:            Haskell implementation of a simply-linked list
+synopsis:            Haskell implementation of a singly-linked list
 -- description:
-homepage:            https://github.com/pdani/LinkedList
+homepage:            https://github.com/pdani/HLinkedList
 license:             BSD3
 license-file:        LICENSE
 author:              Daniel Pek
@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 source-repository head
   type:             git
-  location:         https://github.com/pdani/LinkedList.git
+  location:         https://github.com/pdani/HLinkedList.git
 
 library
   exposed-modules:

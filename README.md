@@ -1,7 +1,7 @@
 LinkedList
 ==========
 
-Haskell implementation of a simply-linked list
+Haskell implementation of a singly-linked list
 
 Installation
 ============
